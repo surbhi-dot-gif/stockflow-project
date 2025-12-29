@@ -1,4 +1,4 @@
-## 💡 My Approach
+## My Approach
 
 ### Part 1: Security & Reliability
 I prioritized **Data Integrity**. In the code review, I identified that multiple database commits without a transaction are dangerous. My fix ensures that "StockFlow" never has "ghost products" (products that exist but have no inventory records).
